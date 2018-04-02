@@ -13,7 +13,7 @@ username:<br>
 <input type="text" name="username"><br>
 password:<br>
 <input type="password" name="password"><br><br>
-<input type="submit" value="logout">
+<input type="submit" value="signin">
 
 </form>
 </body>
