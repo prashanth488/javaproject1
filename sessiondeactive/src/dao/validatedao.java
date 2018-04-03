@@ -24,6 +24,7 @@ public void validate(userbean user) {
 			user.setEmail(rs.getString("email"));
 		}else {
 			user.setValid(false);
+			System.out.println("error occured");
 		}
 	}catch(Exception e) {
 		e.printStackTrace();
